@@ -100,5 +100,6 @@ ENV/
 # mypy
 .mypy_cache/
 
-# TensorBoard
+# My additions
 /TensorBoard logs
+__init__.py
