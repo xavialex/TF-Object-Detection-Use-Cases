@@ -101,4 +101,4 @@ ENV/
 .mypy_cache/
 
 # TensorBoard
-.TensorBoard logs/
+/TensorBoard logs

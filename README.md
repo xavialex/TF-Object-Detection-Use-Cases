@@ -6,11 +6,32 @@ In this repository appears some apps with different use cases that take use of T
 ## Dependencies
 
 It's mandatory to download a [Tensorflow detection model](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) and locate it like this:
-|____ Tensorflow detection model zoo
-|     |____ ssd_mobilenet_v1_coco
-|     |____ ssd_inception_v2_coco
-|     |____ ...
-|____ TF Object Detection Use Cases
+```
+├───TensorFlow Object Detection Models
+│   └───trained_models
+│       ├───faster_rcnn_inception_resnet_v2_atrous_coco_11_06_2017
+│       │
+│       ├───faster_rcnn_resnet101_coco_11_06_2017
+│       │
+│       ├───rfcn_resnet101_coco_11_06_2017
+│       │
+│       ├───ssd_inception_v2_coco_11_06_2017
+│       │
+│       ├───ssd_mobilenet_v1_coco_11_06_2017
+│       │
+│       └───...
+│
+├───TF-Object-Detection-Use-Cases
+│   │   object_detection_from_url.py
+│   │   object_detection_from_video.py
+│   │   object_detection_from_webcam.py
+│   │   object_detection_with_tensorboard.py
+│   │   people_detection_from_webcam.py
+│   │   utils.py
+│   │   ...
+│   │
+│   └───object_detection
+```
 
 Depending on the specs of your environment, you may choose one faster or other wiht a better mean Average Precision (mAP).
 
@@ -18,4 +39,8 @@ Also, depending on the example you want to run you'll need to download certain l
 
 ## Use
 
-Launch any of the *.py* examples from your favourite IDE or from the command prompt. Press the *q* button in the resulting floating window to close the program.
+Launch any of the *.py* examples from your favourite IDE or from the command prompt. Press the *'q'* button in the resulting floating window to close the program.
+
+Depending on the specs of your environment, you may choose one faster or other wiht a better mean Average Precision (mAP).
+
+Also, depending on the example you want to run you'll need to download certain libraries or have access to hardware (webcam).
