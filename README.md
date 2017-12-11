@@ -1,6 +1,6 @@
 # Object Detection Use Cases
 
-Deep Learning (DL) has achieved huge success in the last years in the field of Computer Vision. Researchers around the world work in the building and training of new state-of-the-art architectures and models. This requires lots of knowledge, skill, data an computing power, who may be hard to get for the vast majority of DL practitioners. That's the main reason because Transfer Learning becomes a very good approach in order to get introduced in this field, which consists of grabbing some architecture/models weights that have demonstrated their value already in well known image datasets and build new applications starting from there.
+Deep Learning (DL) has achieved huge success in the last years in the field of Computer Vision. Researchers around the world work in the building and training of new state-of-the-art architectures and models. This requires lots of knowledge, skill, data and computing power, who may be hard to get for the vast majority of DL practitioners. That's the main reason because Transfer Learning becomes a very good approach in order to get introduced in this field, which consists of grabbing some architecture/models weights that have demonstrated their value already in well known image datasets and build new applications starting from there.
 In this repository appears some apps with different use cases that take use of TensorFlow's Object Detection Models Zoo that may be of interest for those of who require strong Object Detection capabilities.
 
 ## Dependencies
