@@ -5,7 +5,7 @@ In this repository appears some apps with different use cases that take use of T
 
 ## Dependencies
 
-It's mandatory to download a [Tensorflow detection model](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) and locate it like this:
+It's mandatory to download a [Tensorflow detection model](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) and locate it outside the project like this:
 ```
 ├───TensorFlow Object Detection Models
 │   └───trained_models
@@ -36,6 +36,20 @@ It's mandatory to download a [Tensorflow detection model](https://github.com/ten
 Depending on the specs of your environment, you may choose one faster or other wiht a better mean Average Precision (mAP).
 
 Also, depending on the example you want to run you'll need to download certain libraries or have access to hardware (webcam).
+
+If you're a conda user, you can create an environment from the ```object_detection_env.yml``` file using the Terminal or an Anaconda Prompt for the following steps:
+
+1. Create the environment from the ```object_detection_env.yml``` file:
+
+    ```conda env create -f object_detection_env.yml```
+2. Activate the new environment:
+    * Windows: ```activate myenv```
+    * macOS and Linux: ```source activate myenv``` 
+    
+    NOTE: Replace ```myenv``` with the name of the environment.
+3. Verify that the new environment was installed correctly:
+
+    ```conda list```
 
 ## Use
 
