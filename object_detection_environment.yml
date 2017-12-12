@@ -2,9 +2,15 @@ name: object_detection_env
 channels:
 - defaults
 dependencies:
+- asn1crypto=0.23.0=py36h546eea3_0
+- ca-certificates=2017.08.26=h94faf87_0
 - certifi=2017.11.5=py36hb8ac631_0
+- cffi=1.11.2=py36h829d1a5_0
+- chardet=3.0.4=py36h420ce6e_1
+- cryptography=2.1.4=py36he1d7878_0
 - freetype=2.8=h51f8f2c_1
 - icc_rt=2017.0.4=h97af966_0
+- idna=2.6=py36h148d497_1
 - intel-openmp=2018.0.0=hd92c6cd_8
 - jpeg=9b=hb83a4c4_2
 - libpng=1.6.32=h140d38e_4
@@ -13,14 +19,22 @@ dependencies:
 - numpy=1.13.3=py36ha320f96_0
 - olefile=0.44=py36h0a7bdd2_0
 - opencv=3.3.1=py36h20b85fd_1
+- openssl=1.0.2n=h74b6da3_0
 - pillow=4.3.0=py36ha40f157_1
 - pip=9.0.1=py36h226ae91_4
+- pycparser=2.18=py36hd053e01_1
+- pyopenssl=17.5.0=py36h5b7d817_0
+- pysocks=1.6.7=py36h698d350_1
 - python=3.6.3=h3b118a2_4
+- requests=2.18.4=py36h4371aae_1
 - setuptools=36.5.0=py36h65f9e6e_0
+- six=1.11.0=py36h4db2310_1
 - tk=8.6.7=hcb92d03_3
+- urllib3=1.22=py36h276f60a_0
 - vc=14=h2379b0c_2
 - vs2015_runtime=14.0.25123=hd4c4e62_2
 - wheel=0.30.0=py36h6c3ec14_1
+- win_inet_pton=1.0.1=py36he67d7fd_1
 - wincertstore=0.2=py36h7fe50ca_0
 - zlib=1.2.11=h8395fce_2
 - pip:
@@ -29,7 +43,7 @@ dependencies:
   - html5lib==0.9999999
   - markdown==2.6.10
   - protobuf==3.5.0.post1
-  - six==1.11.0
   - tensorflow==1.4.0
   - tensorflow-tensorboard==0.4.0rc3
   - werkzeug==0.13
+  - win-inet-pton==1.0.1
