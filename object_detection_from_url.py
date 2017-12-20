@@ -96,10 +96,11 @@ def main():
         with tf.Session(graph=detection_graph) as sess:
 
             while True:  # fps._numFrames < 120
-                #frame = video_capture.read()
-                #response = requests.get('http://14.141.75.148/cgi-bin/camera?resolution=640&amp;amp;quality=1&amp;amp;Language=0&amp;amp;1501245077') # Ídolo hindú
-                #response = requests.get('http://203.138.220.33/mjpg/video.mjpg') # Calles de Osaka
-                response = requests.get('http://31.168.54.91/cgi-bin/camera?resolution=640&amp;quality=1&amp;Language=0&amp;COUNTER') # Tienda ropa en Tel Aviv       
+                url = {'India': 'http://31.168.54.91/cgi-bin/camera?resolution=640&amp;quality=1&amp;Language=0&amp;COUNTER', 
+                       'Osaka': 'http://203.138.220.33/mjpg/video.mjpg', 
+                       'Tel-Aviv': 'http://31.168.54.91/cgi-bin/camera?resolution=640&amp;quality=1&amp;Language=0&amp;COUNTER', 
+                       }
+                response = requests.get(url['Tel-Aviv']) # Tienda ropa en Tel Aviv       
                 
                 frame = np.array(Image.open(BytesIO(response.content)))
                 frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
