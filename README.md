@@ -41,7 +41,7 @@ If you're a conda user, you can create an environment from the ```object_detecti
 
 1. Create the environment from the ```object_detection_env.yml``` file:
 
-    ```conda env create -f object_detection_env.yml```
+    ```conda env create -n myenv -f object_detection_env.yml```
 2. Activate the new environment:
     * Windows: ```activate myenv```
     * macOS and Linux: ```source activate myenv``` 
@@ -50,6 +50,7 @@ If you're a conda user, you can create an environment from the ```object_detecti
 3. Verify that the new environment was installed correctly:
 
     ```conda list```
+You can also clone the environment through the environment manager of Anaconda Navigator.
 
 ## Use
 
