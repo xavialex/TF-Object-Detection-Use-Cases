@@ -50,6 +50,7 @@ If you're a conda user, you can create an environment from the ```object_detecti
 3. Verify that the new environment was installed correctly:
 
     ```conda list```
+    
 You can also clone the environment through the environment manager of Anaconda Navigator.
 
 ## Use
