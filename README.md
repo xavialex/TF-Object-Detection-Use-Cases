@@ -37,7 +37,7 @@ Depending on the specs of your environment, you may choose one faster or other w
 
 Also, depending on the example you want to run you'll need to download certain libraries or have access to hardware (webcam).
 
-If you're a conda user, you can create an environment from the ```object_detection_env.yml``` file using the Terminal or an Anaconda Prompt for the following steps:
+If you're a conda user, you can create an environment from the ```object_detection_environment.yml``` file using the Terminal or an Anaconda Prompt for the following steps:
 
 1. Create the environment from the ```object_detection_env.yml``` file:
 
