@@ -39,7 +39,7 @@ Also, depending on the example you want to run you'll need to download certain l
 
 If you're a conda user, you can create an environment from the ```object_detection_environment.yml``` file using the Terminal or an Anaconda Prompt for the following steps:
 
-1. Create the environment from the ```object_detection_env.yml``` file:
+1. Create the environment from the ```object_detection_environment.yml``` file:
 
     ```conda env create -f object_detection_env.yml```
 2. Activate the new environment:
