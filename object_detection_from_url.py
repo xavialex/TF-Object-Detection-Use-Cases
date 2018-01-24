@@ -98,7 +98,7 @@ def main():
             while True:  # fps._numFrames < 120
                 url = {'India': 'http://31.168.54.91/cgi-bin/camera?resolution=640&amp;quality=1&amp;Language=0&amp;COUNTER', 
                        'Osaka': 'http://203.138.220.33/mjpg/video.mjpg', 
-                       'Tel-Aviv': 'http://31.168.54.91/cgi-bin/camera?resolution=640&amp;quality=1&amp;Language=0&amp;COUNTER', 
+                       'Tel-Aviv': 'http://31.168.54.91/cgi-bin/camera?resolution=640&amp;quality=1&amp;Language=0&amp;COUNTER' 
                        }
                 response = requests.get(url['Tel-Aviv']) # Tienda ropa en Tel Aviv       
                 
